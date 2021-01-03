@@ -19,10 +19,6 @@ With this extension, you can manage your code in GAS editor, push code to a new 
 
 The extension does not use the Google Drive API, so you don't need any google authentication. Moreover, this extension supports **Bound scripts**.
 
-# **NOTICE**
-This extension is a hack of the GAS IDE's internal RPC, so there's no guarantee of anything. This extension can break at **ANYTIME** if Google changes their api.
-> after 5.0.0, this is using Google Apps Scrips API now so it should be more stable
-
 
 # 1.Install
 Install this extension from [chrome web store](https://chrome.google.com/webstore/detail/lfjcgcmkmjjlieihflfhjopckgpelofo).
@@ -34,10 +30,10 @@ After install, when you open GAS editor, a new button will appear to allow you t
 Login to your GitHub/GitHub Enterprise/Bitbucket/GitLab account, with Two-factor authentication support for GitHub/GitHub Enterprise.
 You can also use an existed token for GitHub/GitHub Enterprise/GitLab.
 
-Actually, this is not a login action, but to create the `access token` which will be used for the extension
+Actually, this is not a login action, but to create the `access token` which will be used for the extension.
 >Note: the access token will be stored in `chrome.storage.sync`(password will not be stored), if you take this as a security hole, pleast **DO NOT** use this extension.
 
-> after 5.0.0, you will also need to provide a google oauth token, you can grant the permission with the `Grant Google oauth token` link in login menu, or leave it empty to use the permission of the Chrome login user(only enable for chrome, for other browser like vivaldi, you must follow the link)
+You will also be asked to give google permission, this is to use the Google Apps Script API.
 
 
 ## 2.2.Bind
@@ -96,7 +92,7 @@ but you will need to delete the token or revoke Bitbucket's oauth yourself from 
  - Option to add ignore file pattern.
 
 # 4.Support
-please create an issue for any question or bug report.
+please create an [issue](https://github.com/leonhartX/gas-github/issues) for any question or bug report.
 
 # 5.Known issues
 
@@ -104,4 +100,3 @@ please create an issue for any question or bug report.
  - (Fixed after 5.0.0) Can not work with more than one IDE tab in same browser
  - Can not push to a blank repo without a init commit. (limited by GitHub API)
  
-PS: There is a similar [extension](https://github.com/leonhartX/lambda-github) for sync your AWS lambda code.
