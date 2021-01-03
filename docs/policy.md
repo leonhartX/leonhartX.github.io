@@ -11,7 +11,7 @@ Google Apps Script Github Assistant asks user's credential for the selected SCM 
 
 The credential will be used to grant access token for selected SCM service and then discarded. The access token will be stored in browser's local storage through Web Storage API.
 
-Google Apps Script Github Assistant will use the access token to get and upadte user's reporistory/branch/code in the selected SCM service when user perform the specific operations.
+Google Apps Script Github Assistant will use the access token to get and update user's reporistory/branch/code in the selected SCM service when user perform the specific operations.
 
 Google Apps Script Github Assistant had never and will never share any of above information to any others.
 
