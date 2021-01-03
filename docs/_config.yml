@@ -22,14 +22,14 @@ title: Google Apps Script Github Assistant
 email: leonhartx.k@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Google Apps Script Github Assistant is a Chrome Exetension for managing GAS code
-  and sync the code betwee GAS and your favorite SCM services.
-  Current Supported: Github, Github Enterprise, Bitbucket, GitLab
+  with your favorite SCM services.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  leonhartX
 
 # Build settings
-theme: jekyll-theme-hacker
+markdown: kramdown
+theme: minima
 plugins:
   - jekyll-feed
 
