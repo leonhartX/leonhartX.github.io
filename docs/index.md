@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: gas-github
+title: Home
 ---
 
 
@@ -13,7 +13,7 @@ title: gas-github
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/rating-count/lfjcgcmkmjjlieihflfhjopckgpelofo.svg)](https://chrome.google.com/webstore/detail/google-apps-script-github/lfjcgcmkmjjlieihflfhjopckgpelofo)
 [![CircleCI](https://img.shields.io/circleci/project/github/leonhartX/gas-github.svg)](https://circleci.com/gh/leonhartX/gas-github)
 
-Chrome-extension to manage Google Apps Script(GAS) code with your favorite SCM service(github/github enterprise/bitbucket/gitlab).
+This is a Chrome extension to manage Google Apps Script(GAS) code with your favorite SCM service(GitHub/GitHub enterprise/Bitbucket/GitLab).
 
 With this extension, you can manage your code in GAS editor, push code to a new created branch, pull from a repository/branch.
 
