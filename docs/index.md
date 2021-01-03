@@ -29,9 +29,15 @@ Login to your GitHub/GitHub Enterprise/Bitbucket/GitLab account, with Two-factor
 You can also use an existed token for GitHub/GitHub Enterprise/GitLab.
 
 Actually, this is not a login action, but to create the `access token` which will be used for the extension.
->Note: the access token will be stored in `chrome.storage.sync`(password will not be stored), if you take this as a security hole, pleast **DO NOT** use this extension.
+>Note: the access token will be stored in `chrome.storage.sync`(password will not be stored), if you take this as a security hole, please **DO NOT** use this extension.
 
-You will also be asked to give google permission, this is to use the Google Apps Script API.
+You will also be asked to give google permission for Apps Script API, this is to get and update your GAS code.
+
+Currently, the Google OAuth App used is not verified by Google yet since it takes a lot of [process](https://developers.google.com/apps-script/guides/client-verification#requesting_verification) (even including taking a youtube video). I'm trying to complete all of them(actually this homepage is one of them) but may take sometime.
+
+So there will be a warn page after you choose the Google account, please go ahead to allow the access otherwise the extension won't work.
+ 
+>If you feel the warn is scary and don't want to give access, also please **DO NOT** use this extension.
 
 
 ## 2.2.Bind
