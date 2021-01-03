@@ -17,8 +17,6 @@ Chrome-extension to manage Google Apps Script(GAS) code with your favorite SCM s
 
 With this extension, you can manage your code in GAS editor, push code to a new created branch, pull from a repository/branch.
 
-The extension does not use the Google Drive API, so you don't need any google authentication. Moreover, this extension supports **Bound scripts**.
-
 
 # 1.Install
 Install this extension from [chrome web store](https://chrome.google.com/webstore/detail/lfjcgcmkmjjlieihflfhjopckgpelofo).
