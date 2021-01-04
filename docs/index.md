@@ -22,6 +22,8 @@ With this extension, you can manage your code in GAS editor, push code to a new 
 Install this extension from [chrome web store](https://chrome.google.com/webstore/detail/lfjcgcmkmjjlieihflfhjopckgpelofo).
 
 # 2.Usage
+Check the [demo video](https://youtu.be/knHyof89gZ4) for basic usage
+
 After install, when you open GAS editor, a new button will appear to allow you to login to GitHub/GitHub Enterprise/Bitbucket/GitLab.
 
 ## 2.1.Login
