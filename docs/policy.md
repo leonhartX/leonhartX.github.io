@@ -7,7 +7,7 @@ permalink: /policy/
 ## Personal data
 
 ### SCM(remote Git) services
-Google Apps Script Github Assistant asks user's credential for the selected SCM service(Github/Github Enterprise/Bitbucket/GitLab)
+Google Apps Script GitHub Assistant asks user's credential for the selected SCM service(Github/Github Enterprise/Bitbucket/GitLab)
 
 The credential will be used to grant access token for selected SCM service and then discarded. The access token will be stored in browser's local storage through Web Storage API.
 
