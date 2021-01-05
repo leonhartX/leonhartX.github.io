@@ -4,9 +4,7 @@ title: Privacy Policy
 permalink: /policy/
 ---
 
-## Personal data
-
-### SCM(remote Git) services
+## SCM(remote Git) services
 Google Apps Script GitHub Assistant asks user's credential for the selected SCM service(GitHub/GitHub Enterprise/Bitbucket/GitLab)
 
 The credential will be used to grant access token for selected SCM service and then discarded. The access token will be stored in browser's local storage through Web Storage API.
@@ -15,7 +13,7 @@ Google Apps Script GitHub Assistant will use the access token to get and update 
 
 Google Apps Script GitHub Assistant had never and will never share any of above information to any others.
 
-### Google
+## Google
 Google Apps Script GitHub Assistant asks user to login with Google account after user login to remote Git service. This is to grant permission for accessing Google Apps Script API to manage user's Apps Script code.
 
 After user login, Google Apps Script GitHub Assistant will access to user's Apps Script project content under user's operation
@@ -27,8 +25,6 @@ Google Apps Script GitHub Assistant won't store and share anything of user's App
 Google Apps Script GitHub Assistant only asks for the [script.projects](https://developers.google.com/identity/protocols/oauth2/scopes#script) scope
 
 The OAuth token grant through [chrome.identity](https://developer.chrome.com/docs/extensions/reference/identity/) and won't be stored directly anywhere
-
-
 
 
 ## Third party services
