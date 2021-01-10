@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Google Apps Script GitHub Assistant
+title: GasHub (Google Apps Script GitHub Assistant)
 email: leonhartx.k@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Google Apps Script GitHub Assistant is a Chrome Exetension for managing GAS code
